@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  }
+  
+  
+.amazon-calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .amazon-calculator h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .amazon-calculator p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .amazon-calculator label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .amazon-calculator input,
+  .amazon-calculator select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .amazon-calculator button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .amazon-calculator button:hover {
+    background-color: #fff;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .amazon-calculator {
+      max-width: 100%;
+      margin: 0;
+      border: none;
+    }
+  }
+  
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+  .apparel {
+    display: block;
+    width: 100%;
+    padding:0.6rem;
+    /* margin: .9vw 0 ; */
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.inputStyle {
+    width: 100%;
+    padding: 0.3rem;
+    margin: 0.1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    /* text-indent: 5px; */
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #aaaaaa;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border-radius: 5px;
+    /* text-indent: 5px; */
+    /* font-size: 13px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #aaaaaa;
+  }
+
+.AmazonContainer {
+    /* width: 90vh; */
+    padding: 1rem;
+    
+    margin: 1rem;
+    margin-top: 4rem;
+    border-radius: 15px;
+    border: 2px solid #f59c26 ;
+    background-color: #fff;
+}
+.tableContainer {
+  /* text-align: left; */
+
+  text-align: left;
+}
+td {
+  margin-left: 3rem;
+  /* text-align: right; */
+float: right;
+}
+div {
+    margin: 0.5rem;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0.3rem;
+}
